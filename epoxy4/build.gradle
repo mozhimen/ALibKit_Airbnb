@@ -1,11 +1,11 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-//    id 'kotlin-kapt'
+    //kapt 'kotlin-kapt
 }
 
 android {
-    namespace 'com.mozhimen.libk.airbnb.epoxy3'
+    namespace 'com.mozhimen.libk.airbnb.epoxy4'
     compileSdk 34
 
     defaultConfig {
@@ -32,10 +32,10 @@ android {
 }
 
 dependencies {
-    api 'com.airbnb.android:epoxy:3.8.0'
-//    kapt 'com.airbnb.android:epoxy-processor:3.8.0'
+    api "com.airbnb.android:epoxy:4.6.3-vinay-compose"
+//    kapt "com.airbnb.android:epoxy-processor:4.6.3-vinay-compose"
 
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
