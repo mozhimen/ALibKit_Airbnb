@@ -26,6 +26,7 @@ include ':epoxy_paging3'
 include ':epoxy_paging4'
 include ':epoxy_paging3_test'
 include ':epoxy_databinding3'
+include ':epoxy3_test'
 //SwiftKit
 include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
@@ -37,4 +38,3 @@ project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
 include ':KUtilKit:utilk_android'
 include ':KUtilKit:utilk_kotlin'
 
-include ':epoxy3_test'
