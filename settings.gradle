@@ -37,14 +37,3 @@ include ':KUtilKit'
 project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
 include ':KUtilKit:utilk_android'
 include ':KUtilKit:utilk_kotlin'
-<<<<<<< Updated upstream
-
-=======
-include ':epoxy_paging3'
-include ':epoxy_paging4'
-include ':epoxy_paging3'
-include ':epoxy_paging3'
-include ':epoxy3'
-include ':epoxy_databinding3'
-include ':epoxy4'
->>>>>>> Stashed changes

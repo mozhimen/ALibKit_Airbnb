@@ -5,10 +5,16 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.mozhimen.bindk.bases.viewdatabinding.activity.BaseActivityVDB
+import com.mozhimen.libk.airbnb.epoxy3.test.databinding.ActivityMainBinding
+import com.mozhimen.libk.airbnb.epoxy3.test.helpers.HomeController
+import com.mozhimen.libk.airbnb.epoxy3.test.mos.Data
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivityVDB<ActivityMainBinding>() {
+    override fun initView(savedInstanceState: Bundle?) {
+        val controller = HomeController()
+        vdb.messagesView.setController(controller)
+        controller.allMessages = Data.messages
+        controller.recentlyActive = Data.recentlyActive
     }
 }
