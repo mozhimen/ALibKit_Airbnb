@@ -11,13 +11,13 @@
         tools:context=".MainActivity">
 
         <com.airbnb.epoxy.EpoxyRecyclerView
-            android:id="@+id/messagesView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:id="@+id/main_recycler"
             android:clipChildren="false"
             android:clipToPadding="false"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/view_holder_message_item" />
 

@@ -13,7 +13,7 @@ import com.mozhimen.libk.airbnb.epoxy3.test.mos.Data
 class MainActivity : BaseActivityVDB<ActivityMainBinding>() {
     override fun initView(savedInstanceState: Bundle?) {
         val controller = HomeController()
-        vdb.messagesView.setController(controller)
+        vdb.mainRecycler.setController(controller)
         controller.allMessages = Data.messages
         controller.recentlyActive = Data.recentlyActive
     }
