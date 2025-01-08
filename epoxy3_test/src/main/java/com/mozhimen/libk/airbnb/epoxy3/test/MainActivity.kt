@@ -7,8 +7,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.mozhimen.bindk.bases.viewdatabinding.activity.BaseActivityVDB
 import com.mozhimen.libk.airbnb.epoxy3.test.databinding.ActivityMainBinding
-import com.mozhimen.libk.airbnb.epoxy3.test.helpers.HomeController
-import com.mozhimen.libk.airbnb.epoxy3.test.mos.Data
+import com.mozhimen.libk.airbnb.epoxy3.test.first.helpers.HomeController
+import com.mozhimen.libk.airbnb.epoxy3.test.first.mos.Data
 
 class MainActivity : BaseActivityVDB<ActivityMainBinding>() {
     override fun initView(savedInstanceState: Bundle?) {

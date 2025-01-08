@@ -1,4 +1,4 @@
-package com.mozhimen.libk.airbnb.epoxy3.test.helpers
+package com.mozhimen.libk.airbnb.epoxy3.test.first.helpers
 
 import android.view.View
 import android.widget.ImageView
@@ -8,7 +8,7 @@ import com.airbnb.epoxy.EpoxyHolder
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.mozhimen.libk.airbnb.epoxy3.test.R
-import com.mozhimen.libk.airbnb.epoxy3.test.mos.Profile
+import com.mozhimen.libk.airbnb.epoxy3.test.first.mos.Profile
 
 /**
  * @ClassName RecentlyActiveItemModel

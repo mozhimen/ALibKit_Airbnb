@@ -41,6 +41,16 @@ dependencies {
     implementation project(':epoxy3')
     kapt 'com.airbnb.android:epoxy-processor:3.8.0'
     implementation project(':epoxy_databinding3')
+    implementation project(':lottie')
+
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //core
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'    //ClassicsHeader
+    implementation  'com.scwang.smart:refresh-header-radar:2.0.3'       //BezierRadarHeader
+    implementation  'com.scwang.smart:refresh-header-falsify:2.0.3'     //FalsifyHeader
+    implementation  'com.scwang.smart:refresh-header-material:2.0.3'    //MaterialHeader
+    implementation  'com.scwang.smart:refresh-header-two-level:2.0.3'   //TwoLevelHeader
+    implementation  'com.scwang.smart:refresh-footer-ball:2.0.3'        //BallPulseFooter
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //ClassicsFooter
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

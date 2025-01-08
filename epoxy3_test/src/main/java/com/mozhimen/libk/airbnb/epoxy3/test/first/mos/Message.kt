@@ -1,4 +1,4 @@
-package com.mozhimen.libk.airbnb.epoxy3.test.mos
+package com.mozhimen.libk.airbnb.epoxy3.test.first.mos
 
 /**
  * @ClassName Message

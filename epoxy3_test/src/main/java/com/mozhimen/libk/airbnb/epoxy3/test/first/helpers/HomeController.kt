@@ -1,10 +1,10 @@
-package com.mozhimen.libk.airbnb.epoxy3.test.helpers
+package com.mozhimen.libk.airbnb.epoxy3.test.first.helpers
 
 import com.airbnb.epoxy.Carousel
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.epoxy.carousel
-import com.mozhimen.libk.airbnb.epoxy3.test.mos.Message
-import com.mozhimen.libk.airbnb.epoxy3.test.mos.Profile
+import com.mozhimen.libk.airbnb.epoxy3.test.first.mos.Message
+import com.mozhimen.libk.airbnb.epoxy3.test.first.mos.Profile
 
 /**
  * @ClassName HomeController
