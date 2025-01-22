@@ -37,10 +37,10 @@ android {
 }
 
 dependencies {
-    implementation project(':SwiftKit:bindk')
+    implementation project(':ASwiftKit:bindk')
     implementation project(':epoxy3')
     kapt 'com.airbnb.android:epoxy-processor:3.8.0'
-    implementation project(':epoxy_databinding3')
+    implementation project(':epoxy3:databinding')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
