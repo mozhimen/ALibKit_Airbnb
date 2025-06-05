@@ -19,15 +19,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ALibKit_Airbnb"
-include ':app'
-include ':lottie'
-include ':epoxy3'
-include ':epoxy3:adapter'
-include ':epoxy3:test'
-include ':epoxy3:databinding'
-include ':epoxy3:paging'
-include ':epoxy4'
-include ':epoxy4:paging'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
@@ -53,3 +44,13 @@ include ':KUtilKit'
 project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
 include ':KUtilKit:android'
 include ':KUtilKit:kotlin'
+//
+include ':app'
+include ':lottie'
+include ':epoxy3'
+include ':epoxy3:adapter'
+include ':epoxy3:test'
+include ':epoxy3:databinding'
+include ':epoxy3:paging'
+include ':epoxy4'
+include ':epoxy4:paging'
