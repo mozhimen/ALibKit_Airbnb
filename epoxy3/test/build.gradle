@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation project(':ASwiftKit:bindk')
+    implementation project(':ASwiftKit:uik:databinding')
     implementation project(':epoxy3')
     kapt 'com.airbnb.android:epoxy-processor:3.8.0'
     implementation project(':epoxy3:databinding')

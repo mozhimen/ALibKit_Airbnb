@@ -7,10 +7,10 @@ import android.os.Handler
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mozhimen.bindk.bases.viewdatabinding.activity.BaseActivityVDB
 import com.mozhimen.libk.airbnb.epoxy3.test.databinding.ActivitySecondBinding
 import com.mozhimen.libk.airbnb.epoxy3.test.second.helpers.PhotoController
 import com.mozhimen.libk.airbnb.epoxy3.test.second.helpers.PhotoEpoxyModel_
+import com.mozhimen.uik.databinding.bases.viewdatabinding.activity.BaseActivityVDB
 
 /**
  * @ClassName SecondActivity
