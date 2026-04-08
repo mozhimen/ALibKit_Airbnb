@@ -30,7 +30,7 @@ android {
 }
 
 dependencies {
-    api 'com.airbnb.android:epoxy-adapter:3.8.0'
+//    api 'com.airbnb.android:epoxy-adapter:3.8.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'

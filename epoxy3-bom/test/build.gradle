@@ -37,10 +37,10 @@ android {
 }
 
 dependencies {
-    implementation project(':ASwiftKit:uik:databinding')
-    implementation project(':epoxy3')
+    implementation 'com.github.mozhimen.ASwiftKit:uik-databinding:2.0.3'
+    implementation project(':epoxy3-bom')
     kapt 'com.airbnb.android:epoxy-processor:3.8.0'
-    implementation project(':epoxy3:databinding')
+    implementation project(':epoxy3-databinding')
     implementation project(':lottie')
 
     implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //core
